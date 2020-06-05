@@ -40,7 +40,7 @@
 <body>
     <div class = 'container'>
         <div class = 'content'>
-            <p>Application Form: Version 1</p>
+            <p>Application Form: Version 2</p>
         </div>
         <div class = 'form'>
             <form>
@@ -64,7 +64,7 @@
                 <pre>
                     <?php
                     echo "<i> TIME </i>";
-                    print `watch time`;
+                    print `time`;
                     ?>
                 </pre>
             </form>
