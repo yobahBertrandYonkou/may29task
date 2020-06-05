@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: site-deployer
+
+spec:
+  replicas: 4 
+  selector:
+    matchLabels:
+      env: production
+      site: registration
+
+  template:
+    metadata:
+      name: webside
+      labels:
+        env: production
+        site: registration
+
+    spec:
+      containers:
+        - name: registration
+          image: bmbvfx/mysite
