@@ -40,7 +40,7 @@
 <body>
     <div class = 'container'>
         <div class = 'content'>
-            <p>Application Form: Version updated</p>
+            <p>Application Form: Version 0</p>
         </div>
         <div class = 'form'>
             <form>
